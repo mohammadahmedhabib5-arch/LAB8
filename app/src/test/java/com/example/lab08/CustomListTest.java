@@ -8,7 +8,7 @@ public class CustomListTest {
         City calgary = new City("Calgary", "AB");
         list.addCity(calgary);
 // This will fail initially because hasCity() doesn't
-
+        exist
         assertTrue(list.hasCity(calgary));
     }
 }
